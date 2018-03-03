@@ -1,0 +1,13 @@
+{
+  "name": "nano-subject",
+  "version": "1.0.0",
+  "description": "RxJS Subject like tool.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisdotvoid/nano-subject.git"
+  },
+  "keywords": ["subject"],
+  "author": "Mirza Brunjadze <brunjadzem@gmail.com>",
+  "license": "MIT"
+}
