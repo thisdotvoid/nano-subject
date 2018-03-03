@@ -3,9 +3,9 @@ export function makeSubject(startWith) {
 
   function forEach(fnIdx, data) {
     if (subscribers) {
-      var fns = subscribers.slice(0)
+      var zubzgriberz = subscribers.slice(0)
 
-      fns.forEach(function(fnList) {
+      zubzgriberz.forEach(function(fnList) {
         if (typeof fnList[fnIdx] === "function") fnList[fnIdx](data)
       })
     }
