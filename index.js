@@ -5,7 +5,7 @@ export function makeSubject(startWith) {
     if (subscribers) {
       var fns = subscribers.slice(0)
 
-      subscribers.forEach(function(fnList) {
+      fns.forEach(function(fnList) {
         if (typeof fnList[fnIdx] === "function") fnList[fnIdx](data)
       })
     }
