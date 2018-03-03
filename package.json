@@ -1,7 +1,7 @@
 {
   "name": "nano-subject",
   "version": "1.0.0",
-  "description": "RxJS Subject like tool.",
+  "description": "RxJS Subject like function.",
   "main": "index.js",
   "repository": {
     "type": "git",
